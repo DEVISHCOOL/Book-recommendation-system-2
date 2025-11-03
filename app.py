@@ -10,8 +10,7 @@ st.title("📚 Simple Book Recommendation App")
 
 # 3. Load dataset
 # Make sure Book_rec.csv is in the same folder as this file
-df = pd.read_csv("https://drive.google.com/file/d/1jX6KkT4uVC8dn8XMKaTAMs9qXm2J67eE/view?usp=drive_link")
-
+df = pd.read_csv("https://drive.google.com/file/d/1jX6KkT4uVC8dn8XMKaTAMs9qXm2J67eE/view?usp=sharing")
 # 4. Fill missing values to avoid errors
 df['Book-Title'] = df['Book-Title'].fillna('')
 
